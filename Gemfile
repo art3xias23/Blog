@@ -11,9 +11,10 @@ gem 'jbuilder'
 gem 'devise'
 
 group :development, :test do
-  gem 'sqlite3'
+  
   gem 'spring'
   gem 'listen'
+  gem 'puma'
 end
 
 group :production do
